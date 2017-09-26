@@ -3,6 +3,7 @@
 #include "myList.h"
 #include "myForwardList.h"
 #include "mymap.h"
+#include "mySet.h"
 
 #include <conio.h>
 
@@ -17,12 +18,15 @@ int main() {
 	T_map['c'] = 30;
 	T_map['d'] = 40;
 	T_map['e'] = 50;
+	int mysetints[] = { 1,2,3,4,5 };
+	std::set<int> T_set(mysetints, mysetints + 5);
 
 	myVector vec;
 	myDeque deq;
 	myList lis;
 	myForwardList flist;
 	myMap map;
+	mySet set;
 
 	vec.printVectorForward(T_vector);
 	vec.printVectorBackward(T_vector);
@@ -32,6 +36,8 @@ int main() {
 	lis.printListBackward(T_list);
 	flist.printForwardList(T_flist);
 	map.printMapForward(T_map);
+	set.printSetForward(T_set);
+	set.printSetBackward(T_set);
 
 	_getch();
 }
