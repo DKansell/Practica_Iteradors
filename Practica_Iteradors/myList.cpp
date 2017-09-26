@@ -1,32 +1,36 @@
-#include "list.h"
+#include "myList.h"
 
 
 
-listIT::listIT()
+myList::myList()
 {
 }
 
 
-listIT::~listIT()
+myList::~myList()
 {
 }
 
-void listIT::printListForward(std::list<int> myList) {
+void myList::printListForward(std::list<int> myList) {
 
-	cout << "List" << endl;
+	cout << "Printing the list forward: ";
 
 	for (std::list<int>::iterator it = myList.begin(); it != myList.end(); ++it)
 	{
 		cout << *it << ' ';
 	}
+
 	cout << endl;
 }
 
-void listIT::printListBackward(std::list<int> myList) {
+void myList::printListBackward(std::list<int> myList) {
+
+	cout << "Printing the list backward: ";
 
 	for (std::list<int>::reverse_iterator it = myList.rbegin(); it != myList.rend(); ++it)
 	{
 		cout << *it << ' ';
 	}
+
 	cout << endl;
 }

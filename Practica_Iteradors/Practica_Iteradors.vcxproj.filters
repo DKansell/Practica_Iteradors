@@ -15,45 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="myDeque.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="vector.cpp">
+    <ClCompile Include="myForwardList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="deque.cpp">
+    <ClCompile Include="myList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="list.cpp">
+    <ClCompile Include="myVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="forward_list.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="map.cpp">
+    <ClCompile Include="mymap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="set.cpp">
+    <ClCompile Include="mySet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="vector.h">
+    <ClInclude Include="myDeque.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="deque.h">
+    <ClInclude Include="myForwardList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list.h">
+    <ClInclude Include="myList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="forward_list.h">
+    <ClInclude Include="myVector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="map.h">
+    <ClInclude Include="mymap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="set.h">
+    <ClInclude Include="mySet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
