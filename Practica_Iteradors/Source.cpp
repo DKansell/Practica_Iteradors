@@ -6,7 +6,8 @@ int main() {
 
 	vectorIT vec;
 
-	vec.printVector(myVector);
+	vec.printVectorForward(myVector);
+	vec.printVectorBackward(myVector);
 
 	_getch();
 }
