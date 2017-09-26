@@ -1,8 +1,15 @@
 #pragma once
-class deque
+#include <deque>
+#include <iostream>
+using namespace std;
+
+class dequeIT
 {
 public:
-	deque();
-	~deque();
+	dequeIT();
+	~dequeIT();
+
+	void printDequeForward(std::deque<int> myDeque);
+	void printDequeBackward(std::deque<int> myDeque);
 };
 

@@ -1,8 +1,15 @@
 #pragma once
-class list
+#include <list>
+#include <iostream>
+using namespace std;
+
+class listIT
 {
 public:
-	list();
-	~list();
+	listIT();
+	~listIT();
+
+	void printListForward(std::list<int> myDeque);
+	void printListBackward(std::list<int> myDeque);
 };
 
