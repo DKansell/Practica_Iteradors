@@ -1,17 +1,17 @@
-#include "vector.h"
+#include "myVector.h"
 
 
 
-vectorIT::vectorIT()
+myVector::myVector()
 {
 }
 
 
-vectorIT::~vectorIT()
+myVector::~myVector()
 {
 }
 
-void vectorIT::printVectorForward(std::vector<int> myVector) {
+void myVector::printVectorForward(std::vector<int> myVector) {
 
 	cout << "Printing the vector forward: ";
 
@@ -23,7 +23,7 @@ void vectorIT::printVectorForward(std::vector<int> myVector) {
 	cout << endl;
 }
 
-void vectorIT::printVectorBackward(std::vector<int> myVector) {
+void myVector::printVectorBackward(std::vector<int> myVector) {
 
 	cout << "Printing the vector backward: ";
 

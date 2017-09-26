@@ -3,11 +3,11 @@
 #include <iostream>
 using namespace std;
 
-class vectorIT
+class myVector
 {
 public:
-	vectorIT();
-	~vectorIT();
+	myVector();
+	~myVector();
 
 	//Atributos
 	int size;

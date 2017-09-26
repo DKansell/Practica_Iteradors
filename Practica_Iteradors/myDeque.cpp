@@ -1,29 +1,30 @@
-#include "deque.h"
+#include "myDeque.h"
 
 
 
-dequeIT::dequeIT()
+myDeque::myDeque()
 {
 }
 
 
-dequeIT::~dequeIT()
+myDeque::~myDeque()
 {
 }
 
 
-void dequeIT::printDequeForward(std::deque<int> myDeque) {
+void myDeque::printDequeForward(std::deque<int> myDeque) {
 
-	cout << "Deque" << endl;
+	cout << "Printing the deque forward: ";
 
 	for (std::deque<int>::iterator it = myDeque.begin(); it != myDeque.end(); ++it)
 	{
 		cout << *it << ' ';
 	}
+
 	cout << endl;
 }
 /*
-void dequeIT::printDequeBackward(std::deque<int> myDeque) {
+void myDeque::printDequeBackward(std::deque<int> myDeque) {
 
 	std::deque<int>::iterator it2 = myDeque.end();
 
@@ -38,12 +39,15 @@ void dequeIT::printDequeBackward(std::deque<int> myDeque) {
 }
 */
 
-void dequeIT::printDequeBackward(std::deque<int> myDeque) {
+void myDeque::printDequeBackward(std::deque<int> myDeque) {
+
+	cout << "Printing the deque backward: ";
 
 	for (std::deque<int>::reverse_iterator it = myDeque.rbegin(); it != myDeque.rend(); ++it)
 	{
 		cout << *it << ' ';
 	}
+
 	cout << endl;
 
 }

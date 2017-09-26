@@ -2,11 +2,13 @@
 #include <forward_list>
 #include <iostream>
 
-class forward_listIT
+class myForwardList
 {
 public:
-	forward_listIT();
-	~forward_listIT();
+	myForwardList();
+	~myForwardList();
+
+	//iteradores Forward
 
 	void printForwardList(std::forward_list<int> myForwardList);
 };
