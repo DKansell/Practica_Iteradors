@@ -15,46 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="myDeque.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="myForwardList.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="myList.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="myVector.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mymap.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="mySet.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myDeque.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="myForwardList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="myList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="myVector.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="mymap.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="mySet.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

@@ -146,21 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="myDeque.cpp" />
-    <ClCompile Include="myForwardList.cpp" />
-    <ClCompile Include="myList.cpp" />
-    <ClCompile Include="mymap.cpp" />
-    <ClCompile Include="mySet.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="myVector.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myDeque.h" />
-    <ClInclude Include="myForwardList.h" />
-    <ClInclude Include="myList.h" />
-    <ClInclude Include="mymap.h" />
-    <ClInclude Include="mySet.h" />
-    <ClInclude Include="myVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
